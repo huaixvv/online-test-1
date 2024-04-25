@@ -57,15 +57,15 @@ export default function Home() {
                 <div className="list-btn">
                   <div className="list">
                     <p>
-                      <img src="../static/imgs/icon.svg" alt=""/>
+                      <Image src={icon} alt={""}/>
                       <span>Click Launch app</span>
                     </p>
                     <p>
-                      <img src="../static/imgs/icon.svg" alt=""/>
+                      <Image src={icon} alt={""}/>
                       <span>Connect your wallet</span>
                     </p>
                     <p>
-                      <img src="../static/imgs/icon.svg" alt=""/>
+                      <Image src={icon} alt={""}/>
                       <span>Enter your invite code</span>
                     </p>
                   </div>
