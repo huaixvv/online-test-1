@@ -3,6 +3,7 @@
 import Image from "next/image";
 import './page.css'
 import {useRouter} from "next/navigation";
+import logo from '../static/imgs/logo.svg'
 
 type menu = {
   title: string,
@@ -37,7 +38,7 @@ export default function Home() {
           <div className="bg-house">
 
             <div className="m-top flex w-full justify-between">
-              <img className="cursor-pointer" src="../static/imgs/logo.svg" alt=""/>
+              <img className="cursor-pointer" src={logo} alt=""/>
               <div className="menu">
                 {
                   menus.map(item => <span className="cursor-pointer" onClick={() => menuClick(item.path)}>{item.title}</span>)
