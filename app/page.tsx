@@ -4,6 +4,7 @@ import Image from "next/image";
 import './page.css'
 import {useRouter} from "next/navigation";
 import logo from '../static/imgs/logo.svg'
+import icon from '../static/imgs/icon.svg'
 
 type menu = {
   title: string,
