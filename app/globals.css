@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'pixeboy';
+  src: url('../fonts/Pixeboy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'common-front';
+  src: url('../fonts/GohuFont14NerdFont-Regular.ttf') format('truetype');
+}
