@@ -39,7 +39,8 @@ export default function Home() {
           <div className="bg-house">
 
             <div className="m-top flex w-full justify-between">
-              <img className="cursor-pointer" src={logo} alt=""/>
+              {/*<img className="cursor-pointer" src={logo} alt=""/>*/}
+              <Image src={logo} alt={""}/>
               <div className="menu">
                 {
                   menus.map(item => <span className="cursor-pointer" onClick={() => menuClick(item.path)}>{item.title}</span>)
